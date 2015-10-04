@@ -1,0 +1,7 @@
+main {
+	var whatever := "abcd";
+	let whatever := "cdef";
+	var k := 3.33;
+	let k := 4 : float;
+	print whatever nl k;
+}

@@ -1,0 +1,6 @@
+main {
+	print 1+1*2 nl;
+	print 2:float*8.3+((10 - 1)*0):float*(((('x:int)) + 10 - 1):float);
+	print nl;
+	print 1/2 + 1*4 - 3/4;
+}

@@ -1,0 +1,10 @@
+main {
+	print "abcd":string nl;
+	print 'a : int + 10 nl;
+	print 1.3 : int nl;
+	imm k := 3;
+	imm k2 := (k*20):float:int:char;
+	print k2 nl;
+	print k :bool:bool nl;
+	print 0:bool:bool;
+}

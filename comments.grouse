@@ -1,0 +1,9 @@
+main {
+	print 1 + -1 // /foobar//////;
+	print //abcdef/asjf// 5;
+	print//explicit// 1 -//flkajsflkjsadfklsdaf/thisdontcount// 5 +
+	3 nl;
+	print 134 //.44//+ 44;
+	//print 1 != 1 nl 1 + 1;
+	// print 1 != 1 nl 1 + 1;
+}
