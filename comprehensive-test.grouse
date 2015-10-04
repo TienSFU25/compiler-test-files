@@ -1,0 +1,121 @@
+main {
+
+	// integer
+    var a := 45;
+	var b := a + 10 / 2;
+	var c := (a - 5) * 2 - 30;
+	var d := (a - c) * -10;
+	
+	// float
+	var a2 := 45.0;
+	var b2 := a2 + 1.0e+1 / 2.0;
+	var c2 := (a2 - 5.0) * 2.0 - 300.0e-1;
+	var d2 := (a2 - c2) * -10.0;
+	
+	// integer constant
+    imm a3 := 45;
+	imm b3 := a3 + 10 / 2;
+	imm c3 := (a3 - 5) * 2 - 30;
+	imm d3 := (a3 - c3) * -10;
+	
+	// float constant
+	imm a4 := 45.0;
+	imm b4 := a4 + 1.0e+1 / 2.0;
+	imm c4 := (a4 - 5.0) * 2.0 - 300.0e-1;
+	imm d4 := (a4 - c4) * -10.0;
+	
+	// reassignment
+    var a5 := 25;
+	var b5 := 35;
+	let a5 := a5 * 2;
+	let b5 := a5 * 2 + -50;
+	
+	// comparisons
+    var a6 := 25;
+	var b6 := 35;
+	var c6 := 35;
+	var d6 := a6 < b6;
+	var e6 := b6 > a6;
+	var f6 := b6 >= c6;
+	var g6 := b6 <= c6;
+	var h6 := b6 == c6;
+	var i6 := b6 != a6;
+	var j6 := a6 > b6;
+	var k6 := b6 < a6;
+	var l6 := b6 <= a6;
+	var m6 := a6 >= b6;
+	var n6 := b6 != c6;
+	var o6 := b6 == a6;
+	
+	var a7 := 25.0;
+	var b7 := 35.0;
+	var c7 := 35.0;
+	var d7 := a7 < b7;
+	var e7 := b7 > a7;
+	var f7 := b7 >= c7;
+	var g7 := b7 <= c7;
+	var h7 := b7 == c7;
+	var i7 := b7 != a7;
+	var j7 := a7 > b7;
+	var k7 := b7 < a7;
+	var l7 := b7 <= a7;
+	var m7 := a7 >= b7;
+	var n7 := b7 != c7;
+	var o7 := b7 == a7;
+	
+	var a8 := 'a;
+	var b8 := 'b;
+	var c8 := 'b;
+	var d8 := a8 < b8;
+	var e8 := b8 > a8;
+	var f8 := b8 >= c8;
+	var g8 := b8 <= c8;
+	var h8 := b8 == c8;
+	var i8 := b8 != a8;
+	var j8 := a8 > b8;
+	var k8 := b8 < a8;
+	var l8 := b8 <= a8;
+	var m8 := a8 >= b8;
+	var n8 := b8 != c8;
+	var o8 := b8 == a8;
+	
+	var a11 := false != true;
+	var b11 := true != false;
+	var c11 := true == true;
+	var d11 := false == false;
+	var e11 := false == true;
+	var f11 := true != true;
+	var g11 := true == false;
+	var h11 := false != false;
+	
+	var a12 := "false" != "true";
+	var b12 := "true" != "false";
+	var c12 := "true" == "true";
+	var d12 := "false" == "false";
+	var e12 := "false" == "true";
+	var f12 := "true" != "true";
+	var g12 := "true" == "false";
+	var h12 := "false" != "false";
+	
+	// casting
+	var a9 := 45 : float;
+	var b9 := a9 + 1.0e+1 / 2 : float;
+	var c9 := (a9 - 5.0) * 2 : float - 300.0e-1;
+	var d9 := (a9 - c9) * -10 : float;
+	var e9 := 50.0 : int;
+	var f9 := '2 : int;
+	var g9 := 53 : char;
+
+	// strings
+	var a10 := "test1";
+	var b10 := "test2";
+	var c10 := "";
+	
+	// var names
+	var Asd_324 := 1337;
+	var _f23 := 1337;
+	var _323~ := 1337;
+	
+	print b, c, d, b2, c2, d2, b3, c3, d3, b4, c4, d4, a5, b5, d6, e6, f6, g6, h6, i6, j6, k6, l6, m6, n6, o6, d7, e7, f7, g7, h7, i7, j7, k7, l7, m7, n7, o7, d8, e8, f8, g8, h8, i8, j8, k8, l8, m8, n8, o8, a11, b11, c11, d11, e11, f11, g11, h11, a12, b12, c12, d12, e12, f12, g12, h12, b9, c9, d9, e9, f9, g9, a10, b10, c10, Asd_324, _f23, _323~ nl;
+
+}
